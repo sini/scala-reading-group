@@ -21,7 +21,7 @@ Before anything else, it is most important that you make sure that all tools are
 
 ## Part 1: Obtain the Project Files
 
-Run the `load_resources.sh` script located in the root of this repo if the resource files have not been populated. That shouldn't be the case because I made this repo and ran it.
+Run the `load_resources.sh` script located in the root of this repo if the resource files have not been populated. 
 
 ## Part 2: Using the Scala REPL
 
@@ -87,10 +87,7 @@ object Main extends App {
 ```
 Now the Main object can be executed. In order to do so in eclipse:
 
-1. Right-click on the file Main.scala
-2. Select “Run As” - “Scala Application” 
-
-You can also run the Main object in the sbt console by simply using the command run.
+You can run the Main object in the sbt console by simply using the command run.
 
 ## Part 5: Writing Tests
 

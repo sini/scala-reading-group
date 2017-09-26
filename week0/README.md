@@ -41,6 +41,10 @@ and then in `sbt` run: `gen-idea`
 
 This will create project files.
 
+Note:  If you get a `[error] Not a valid command: gen-idea` when running gen-idea, you probably
+need to move all of the files in ~/.sbt/* to ~/.sbt/0.13.  Ex: `cd ~sbt; mv !(0.13) 0.13`. Then
+try to run sbt and gen-idea again.
+
 To install scala plugin in IDEA: Settings/Preferences -> Plugins -> Browse repositories -> find Scala, right click -> Download and Install. Restart IDEA
 
 More exhaustive instructions for configuring intellij can be found [here](http://laurentkempe.com/2013/09/20/Functional-Programming-Principles-in-Scala-using-JetBrains-IntelliJ-IDEA/)
